@@ -1,8 +1,6 @@
 package com.qzero.repeat;
 
 import java.io.File;
-import java.util.List;
-import java.util.Stack;
 
 public class Test {
 
@@ -22,12 +20,15 @@ public class Test {
             seeker.nextLine();
         }*/
 
-        List<Idiom> result=IdiomUtils.getRepeatablePath(in,"lao");
+        /*List<Idiom> result=IdiomUtils.getRepeatablePath(in,"lao");
         if(result!=null){
             for(Idiom idiom:result){
                 System.out.println(idiom);
             }
-        }
+        }*/
+        /*IdiomSeeker seeker=new IdiomSeeker(in);
+        System.out.println(seeker.locateToPronunciation("lei"));
+        System.out.println(seeker.getIdiom());*/
 
 
         long end=System.currentTimeMillis();

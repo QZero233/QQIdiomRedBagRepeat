@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Repeat:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Repeat_jar</output-path>
+    <root id="archive" name="Repeat.jar">
+      <element id="module-output" name="Repeat" />
+    </root>
+  </artifact>
+</component>

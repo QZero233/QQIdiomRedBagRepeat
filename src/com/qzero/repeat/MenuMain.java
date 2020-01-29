@@ -33,6 +33,7 @@ public class MenuMain {
             if (choice.equals("3"))
                 break;
 
+            long timeStart=System.currentTimeMillis();
 
             switch (choice) {
                 case "1":
@@ -45,6 +46,9 @@ public class MenuMain {
                     System.out.println("非法输入");
                     break;
             }
+
+            long timeEnd=System.currentTimeMillis();
+            System.out.println("用时："+(timeEnd-timeStart)+"ms");
         }
 
         System.out.println("Good bye");
@@ -83,5 +87,9 @@ public class MenuMain {
             System.out.println("---------------------------------");
         }
     }
+
+    //private static String utf8ToGBK(String u8) throws Exception{
+      //  return new String(u8.getBytes("UTF-8"),"GBK");
+    //}
 
 }
